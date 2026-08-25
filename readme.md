@@ -22,6 +22,26 @@
 </div>
 
 ---
+## Live Dashboard
+
+<p align="center">
+
+<a href="https://covid-19-global-intelligence-analytical-dashboard.streamlit.app/">
+
+<img src="https://img.shields.io/badge/EXPLORE-LIVE%20DASHBOARD-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Explore Live Dashboard">
+
+</a>
+
+</p>
+
+<p align="center">
+Explore the interactive COVID-19 Global Intelligence dashboard.
+</p>
+
+The live application provides an interactive analytical experience covering global pandemic trends, geographic distribution, country comparisons, regional intelligence, impact analysis, testing relationships, and mortality analysis.
+
+**Live Dashboard:**  
+https://covid-19-global-intelligence-analytical-dashboard.streamlit.app/
 
 ## Executive Overview
 
