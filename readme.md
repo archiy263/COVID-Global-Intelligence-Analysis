@@ -43,6 +43,67 @@ The live application provides an interactive analytical experience covering glob
 **Live Dashboard:**  
 https://covid-19-global-intelligence-analytical-dashboard.streamlit.app/
 
+
+## Visual Analytics
+
+The project combines interactive Plotly visualizations with a structured analytical workflow to examine COVID-19 patterns across time, geography, impact, testing, mortality, and regions.
+
+### Global Pandemic Evolution
+
+<p align="center">
+  <img src="assets/charts/global-case-evolution.png" width="90%" alt="Global COVID-19 Case Evolution">
+</p>
+
+<p align="center">
+  <img src="assets/charts/global-death-evolution.png" width="90%" alt="Global COVID-19 Death Evolution">
+</p>
+
+The global evolution views provide a temporal perspective on reported cases and deaths across the available observation period.
+
+### Global Pandemic Footprint
+
+<p align="center">
+  <img src="assets/charts/global-covid-map.png" width="90%" alt="Global COVID-19 Case Spread">
+</p>
+
+The interactive geographic analysis examines how reported COVID-19 burden varied across countries.
+
+### Impact Intelligence
+
+<p align="center">
+  <img src="assets/charts/impact-profile.png" width="90%" alt="COVID-19 Impact Profile">
+</p>
+
+<p align="center">
+  <img src="assets/charts/impact-leaderboard.png" width="90%" alt="COVID-19 Impact Leaderboard">
+</p>
+
+The impact analysis provides a comparative view of country-level burden using the project's calculated Impact Score and impact categories.
+
+### Regional Intelligence
+
+<p align="center">
+  <img src="assets/charts/regional-bubble.png" width="90%" alt="Regional COVID-19 Intelligence">
+</p>
+
+<p align="center">
+  <img src="assets/charts/regional-intelligence.png" width="90%" alt="Regional COVID-19 Burden Landscape">
+</p>
+
+Regional analysis aggregates country-level records to identify differences in reported burden and calculated impact across geographic groups.
+
+### Testing and Mortality Relationships
+
+<p align="center">
+  <img src="assets/charts/testing-vs-case-burden.png" width="90%" alt="Testing Intensity vs COVID-19 Case Burden">
+</p>
+
+<p align="center">
+  <img src="assets/charts/case-burden-vs-mortality.png" width="90%" alt="COVID-19 Case Burden vs Mortality">
+</p>
+
+These relationship analyses examine how population-normalized indicators move together within the available records. The visual relationships are descriptive and should not be interpreted as causal evidence.
+
 ## Executive Overview
 
 **COVID-19 Global Intelligence** is an end to end **Data Analytics project** that transforms reported COVID-19 records into an interactive analytical dashboard.
