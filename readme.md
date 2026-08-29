@@ -46,7 +46,7 @@ https://covid-19-global-intelligence-analytical-dashboard.streamlit.app/
 
 ## Visual Analytics
 
-The project combines interactive Plotly visualizations with a structured analytical workflow to examine COVID-19 patterns across time, geography, impact, testing, mortality, and regions.
+The project combines structured data analysis with interactive visualizations to examine COVID-19 patterns across time, geography, impact, testing, mortality, and regional differences.
 
 ### Global Pandemic Evolution
 
@@ -58,51 +58,71 @@ The project combines interactive Plotly visualizations with a structured analyti
   <img src="assets/charts/global-death-evolution.png" width="90%" alt="Global COVID-19 Death Evolution">
 </p>
 
-The global evolution views provide a temporal perspective on reported cases and deaths across the available observation period.
-
-### Global Pandemic Footprint
-
 <p align="center">
-  <img src="assets/charts/global-covid-map.png" width="90%" alt="Global COVID-19 Case Spread">
+  <img src="assets/charts/daily-new-cases.png" width="90%" alt="Global Daily COVID-19 Cases">
 </p>
 
-The interactive geographic analysis examines how reported COVID-19 burden varied across countries.
+The temporal analysis examines how reported cases, deaths, and daily case activity changed across the available observation period.
 
-### Impact Intelligence
+### Country and Geographic Analysis
 
 <p align="center">
-  <img src="assets/charts/impact-profile.png" width="90%" alt="COVID-19 Impact Profile">
+  <img src="assets/charts/India-covid-indicator-evolution.png" width="90%" alt="India COVID-19 Indicator Evolution">
 </p>
+
+<p align="center">
+  <img src="assets/charts/regional-case-evolution.png" width="90%" alt="Regional COVID-19 Case Evolution">
+</p>
+
+<p align="center">
+  <img src="assets/charts/regional-covid-burden.png" width="90%" alt="Regional COVID-19 Burden">
+</p>
+
+The geographic analysis compares reported COVID-19 indicators across countries and regional groups.
+
+### COVID-19 Impact Intelligence
 
 <p align="center">
   <img src="assets/charts/impact-leaderboard.png" width="90%" alt="COVID-19 Impact Leaderboard">
 </p>
 
-The impact analysis provides a comparative view of country-level burden using the project's calculated Impact Score and impact categories.
+The impact analysis provides a comparative country-level view using the project's calculated COVID-19 Impact Score.
 
-### Regional Intelligence
+The score is a project-defined analytical construct created for comparative exploration. It is not an official epidemiological or public health severity index.
 
-<p align="center">
-  <img src="assets/charts/regional-bubble.png" width="90%" alt="Regional COVID-19 Intelligence">
-</p>
+### Testing and Case Burden
 
 <p align="center">
-  <img src="assets/charts/regional-intelligence.png" width="90%" alt="Regional COVID-19 Burden Landscape">
+  <img src="assets/charts/testing-intensity%20vs%20case-burden.png" width="90%" alt="Testing Intensity vs COVID-19 Case Burden">
 </p>
 
-Regional analysis aggregates country-level records to identify differences in reported burden and calculated impact across geographic groups.
+The analysis compares testing intensity with reported cases using population-normalized indicators.
 
-### Testing and Mortality Relationships
+The relationship is descriptive and should not be interpreted as evidence of causation.
 
-<p align="center">
-  <img src="assets/charts/testing-vs-case-burden.png" width="90%" alt="Testing Intensity vs COVID-19 Case Burden">
-</p>
+### Case Burden and Mortality
 
 <p align="center">
   <img src="assets/charts/case-burden-vs-mortality.png" width="90%" alt="COVID-19 Case Burden vs Mortality">
 </p>
 
-These relationship analyses examine how population-normalized indicators move together within the available records. The visual relationships are descriptive and should not be interpreted as causal evidence.
+The burden analysis compares reported cases per million with reported deaths per million to provide a population-normalized perspective across countries.
+
+### Additional Analytical Views
+
+<p align="center">
+  <img src="assets/charts/active-vs-recovered-cases.png" width="90%" alt="Active vs Recovered COVID-19 Cases">
+</p>
+
+<p align="center">
+  <img src="assets/charts/regional-progression-relative-to-peak.png" width="90%" alt="Regional Progression Relative to Peak">
+</p>
+
+<p align="center">
+  <img src="assets/charts/top-reported-conditions.png" width="90%" alt="Top Reported Conditions">
+</p>
+
+These additional visualizations support deeper exploration of recovery patterns, regional progression, and other reported indicators represented in the analytical dataset.
 
 ## Executive Overview
 
